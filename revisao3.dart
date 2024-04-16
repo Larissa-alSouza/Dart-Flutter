@@ -58,6 +58,7 @@ class _conversorState extends State<conversor> {
         children: <Widget> [
           TextField(
             controller: _controlador,
+            keyboardType: TextInputType.number,
             decoration: const InputDecoration(
               labelText: 'Insira a temperatura'
             ),
